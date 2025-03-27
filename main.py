@@ -17,3 +17,4 @@ fig, ax = plt.subplots()
 sns.scatterplot(x="sepal_length", y="sepal_width", data=filtered_df, ax=ax)
 st.pyplot(fig)
 plt.show()
+
